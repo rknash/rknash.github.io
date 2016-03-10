@@ -3,7 +3,16 @@ body {
   color: #313130;
   background-color: #ffffff;
 }
-
+::selection {
+  background: #b55856;
+  color: #fff;
+  text-shadow: none;
+}
+::-moz-selection {
+  background: #b55856;
+  color: #fff;
+  text-shadow: none;
+}
 h1 a:visited {
   color: inherit;
 }
