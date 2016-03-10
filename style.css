@@ -1,0 +1,81 @@
+body {
+  font-family: "Hythlodaeus", Georgia, serif;
+  color: #313130;
+  background-color: #ffffff;
+}
+
+h1 a:visited {
+  color: inherit;
+}
+
+h3 {
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+hr {
+  margin: 0;
+  border: none;
+  height: 1px;
+  background-color: #aaa;
+}
+
+.main {
+  width: 860px;
+  padding: 30px;
+  margin: 40px auto;
+}
+
+.blog-title {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 40px;
+}
+
+h1 a, .article h1 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.article {
+  margin: 50px 0;
+}
+
+.article h1 {
+  font-weight: 200;
+}
+
+.article a, .article a:visited {
+  color: #9d261d;
+  text-decoration: none;
+}
+
+.article .content {
+  font-family: "Alegreya", Palatino, Georgia, serif;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.article .more {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #bbbbba;
+}
+
+.article .date {
+  padding-top: 5px;
+  float: right;
+  color: #ccc;
+}
+
+pre code, code {
+  background-color: #eee;
+  font-size: 90%;
+}
+
+pre code {
+  display: block;
+  padding: 15px;
+}
+
